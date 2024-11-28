@@ -1,0 +1,79 @@
+.tavolaGioco{
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+}
+
+.user{
+    height: 300px;
+    width: 750px;
+    border: 3px solid rgb(0, 255, 8);
+    border-radius: 20px;
+}
+
+.card{
+    height: 250px;
+    width: 180px;
+    background-color: rgb(50, 50, 50);
+    filter: drop-shadow(0 0 0.50rem rgb(0, 0, 0));
+    
+}
+.img{
+    height: 150px;
+    width: 150px;
+}
+
+.titoloCard{
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.card:hover{
+    margin-bottom: 30px;
+    background-color: rgb(0, 255, 8);
+}
+
+
+.sideBox{
+    height: 600px;
+    width: 300px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.167);
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.boxResults{
+    height: 300px;
+    width: 275px;
+}
+
+#counterUser{
+    color: rgb(0, 255, 8);
+}
+
+.buttonBox{
+    height: 200px;
+    width: 275px;
+}
+
+.startGameBtn{
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 8);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.startGameBtn:hover{
+    background-color:rgb(0, 255, 8);
+    border: none;
+}
+
+.resetBtn{
+    background-color: red;
+    border: none;
+}
